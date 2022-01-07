@@ -1,5 +1,5 @@
 -- objects (table , view, store procedure)
-Select * From dbo.objects ;
+Select * From sys.objects ;
 
 -- link servers
 Exec sp_linkedservers ;
